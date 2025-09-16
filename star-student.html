@@ -23,7 +23,8 @@
         // Get the current date
         const month = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 
-        const now = new Date();
+        let now = new Date();
+        now.setDate(now.getDate() + 1);
         let monthName = month[now.getMonth()];
         let day = now.getDate();
 
