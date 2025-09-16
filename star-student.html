@@ -16,6 +16,22 @@
     <h1>Star Student</h1>
     <img src="images/the student.jpeg">
     <h2>Yiting</h2>
-    <p>Yiting Hu has been elected student of the month for his exemplary academic performance and commitment to Hadyn Lennard King's memory. This marks his 42nd consectutive month as student of the month, a sign of his true devotion to Hadyn's cause.</p>
+    <p>Yiting Hu has been elected student of the month for his exemplary academic performance and commitment to Hadyn Lennard King's memory. This marks his 42nd consectutive month as student of the month, a sign of his true devotion to Hadyn's cause. He will recieve his 83rd student of the month honorary dinner on September 17.</p>
+    <p id="currentDate"></p>
+
+    <script>
+        // Get the current date
+        const month = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+
+        const now = new Date();
+        let monthName = month[now.getMonth()];
+        let day = now.getDate();
+
+        // Find the HTML element by its ID
+        const dateElement = document.getElementById("currentDate");
+
+        // Update the content of the element
+        dateElement.innerHTML = monthName + " " + day;
+    </script>
 </body>
 </html>
