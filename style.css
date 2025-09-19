@@ -30,3 +30,18 @@ h6 {
     height: 10%;
     
   }
+  ul {
+    height: 40%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #060606;
+  }
+  ul li {
+    float: left;
+
+  }
+  ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+  }
