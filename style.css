@@ -45,3 +45,7 @@ h6 {
     color: white;
     padding: 14px 16px;
   }
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
