@@ -49,3 +49,7 @@ h6 {
   border: 1px solid black;
   border-collapse: collapse;
 }
+table{
+  width: 100%;
+  table-layout: fixed;
+}
