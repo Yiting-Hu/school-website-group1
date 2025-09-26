@@ -49,8 +49,7 @@ h6 {
   border: 1px solid black;
   border-collapse: collapse;
 }
-th, td {
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+table{
+  width: 100%;
+  table-layout: fixed;
 }
